@@ -46,5 +46,11 @@ int main() {
             return EXIT_FAILURE;
     }
     cout << "a " << op << " b = " << c << endl;
+    // we assume below that Linux users can use a terminal
+#ifndef __linux__
+    cout << "Press any key to exit." << endl;
+    cin.get();
+    cin.ignore();
+#endif
     return 0;
 }
