@@ -31,7 +31,7 @@ auto income_tax(long double income) -> long double {
 
 int main() {
     string input;
-    cout << "Enter your income [" << CURRENCY <<"]:" << endl << ">";
+    cout << "Enter your income [" << CURRENCY << "]:" << endl << ">";
     getline(cin, input);
     americanize(&input);
     auto tax = income_tax(stold(input));
