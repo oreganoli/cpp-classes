@@ -1,17 +1,17 @@
 #include <iostream>
 #include <string>
+#include <cstring>
+
 using namespace std;
 
 auto strpos(const char str[], char z) -> int {
-    int i = 0;
     // this will fail horribly if the string is not null terminated
-    while (true) {
+    for (int i = 0; i < strlen(str); i++){
         if (str[i] == '\0') {
             return -1;
         } else if (str[i] == z) {
             return i;
         }
-        i++;
     }
 }
 
