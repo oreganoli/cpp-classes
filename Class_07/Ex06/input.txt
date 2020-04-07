@@ -1,0 +1,5 @@
+Weight Height BMI Overweight?
+70 180 21.6 N
+67 177 21.39 N
+85 1,7 29,41 Y
+100 192 27.13 Y
