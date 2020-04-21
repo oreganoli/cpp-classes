@@ -30,7 +30,7 @@
 *.exe
 *.out
 *.app
-Ex*
+Ex*_bin*
 
 # Editor stuff
 .idea
