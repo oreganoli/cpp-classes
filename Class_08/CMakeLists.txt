@@ -10,7 +10,7 @@ add_executable(Ex02_bin ex02.cpp)
 add_executable(Ex03_bin ex03.cpp)
 add_executable(Ex04_bin ex04.cpp)
 add_executable(Ex05_bin ex05.cpp)
-
+add_executable(Ex06_bin ex06.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
