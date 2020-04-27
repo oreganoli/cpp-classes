@@ -6,6 +6,7 @@ include(CTest)
 enable_testing()
 
 add_executable(rewriter rewriter.cpp)
+add_executable(file_finder file_finder.cpp)
 
 set(EXECUTABLE_OUTPUT_PATH "bin")
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
