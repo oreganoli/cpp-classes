@@ -53,3 +53,4 @@ _deps
 # Outputs
 output.txt
 build/
+bin/
