@@ -122,5 +122,6 @@ int main()
     cout << "Po odwróceniu:" << endl;
     l->odwroc();
     l->pisz();
+    delete l;
     return 0;
 }
