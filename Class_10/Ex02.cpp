@@ -50,16 +50,16 @@ class Czas {
 			*this = Czas(hours, minutes);
 		}
 		string toString() const {
-			return to_string(this->godz_) + "h" + to_string(this->minuty_) + "m";
+			return to_string(godz_) + "h" + to_string(minuty_) + "m";
 		}
 		Czas dodaj(const Czas &t) const {
-			return Czas(this->godz_ + t.godz_, this->minuty_ + t.minuty_);
+			return Czas(godz_ + t.godz_, minuty_ + t.minuty_);
 		}
 		Czas odejmij(const Czas &t) const {
-			return Czas(this->godz_ - t.godz_, this->minuty_ - t.minuty_);
+			return Czas(godz_ - t.godz_, minuty_ - t.minuty_);
 		}
 		Czas pomnoz(int ile) const {
-			return Czas(this->godz_ * ile, this->minuty_ * ile);
+			return Czas(godz_ * ile, minuty_ * ile);
 		}
 		static Czas sumuj(Czas *tab[], int n) {
 			Czas curr = Czas(0, 0);
