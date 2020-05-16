@@ -6,6 +6,7 @@ enable_testing()
 
 add_executable(Ex01 Ex01.cpp)
 add_executable(Ex02 Ex02.cpp)
+add_executable(Ex03 Ex03.cpp)
 set(CXX_STANDARD 20)
 set(CMAKE_EXPORT_COMPILE_COMMANDS)
 set(EXECUTABLE_OUTPUT_PATH "bin")
